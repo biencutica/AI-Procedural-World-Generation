@@ -16,7 +16,7 @@ This hybrid approach creates worlds that are not only vast and performant but al
 
 ## Key Features
 
-### Hybrid Generation: Uses Perlin Noise for the terrain's visual base and an AI (PSO) for intelligent, adaptive object placement.
+### Hybrid Generation: ### Uses Perlin Noise for the terrain's visual base and an AI (PSO) for intelligent, adaptive object placement.
 
 ### GPU Acceleration: Offloads all Perlin Noise calculations from the CPU to the GPU using Compute Shaders (HLSL) for massive, real-time performance gains.
 
