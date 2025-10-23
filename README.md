@@ -8,7 +8,7 @@ A real-time procedural terrain generation system in Unity (C#) using GPU-acceler
 
 This project is a Unity (C#) application that demonstrates a hybrid system for generating large-scale, adaptive game environments in real-time. It moves beyond basic procedural generation by combining two core techniques:
 
-### Algorithmic Generation: Fast, multi-octave Perlin Noise is used to create the base terrain geometry.
+* **Algorithmic Generation:** Fast, multi-octave Perlin Noise is used to create the base terrain geometry.
 
 ### AI-Driven Optimization: A Particle Swarm Optimization (PSO) algorithm intelligently places environment assets (like trees) in a realistic, context-aware manner.
 
