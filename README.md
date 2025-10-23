@@ -56,11 +56,11 @@ This AI explores the terrain's "solution space" to find the best possible locati
 
 The "best" locations are defined by custom fitness functions that score a position based on rules like:
 
-Is this slope too steep for a tree?
+* **Is this slope too steep for a tree?**
 
-Is this elevation too high?
+* **Is this elevation too high?**
 
-Is this spot too close to another tree?
+* **Is this spot too close to another tree?**
 
 This results in realistic, clustered ecological patterns that adapt to the procedurally generated terrain.
 
