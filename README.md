@@ -1,6 +1,6 @@
 # AI-Enhanced Procedural Terrain Generation in Unity
 
-A real-time procedural terrain generation system in Unity (C#) using GPU-accelerated Perlin Noise and AI (Particle Swarm Optimization) for intelligent asset placement.
+A real-time procedural terrain generation system, built from scratch in Unity (C#) using GPU-accelerated Perlin Noise and AI (Particle Swarm Optimization) for intelligent asset placement.
 
 ![Project Demo Image](./screenshot.png)
 
