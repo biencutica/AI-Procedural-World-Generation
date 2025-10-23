@@ -2,8 +2,6 @@
 
 A real-time procedural terrain generation system in Unity (C#) using GPU-accelerated Perlin Noise and AI (Particle Swarm Optimization) for intelligent asset placement.
 
-![Project Demo GIF](<img width="1429" height="701" alt="image" src="https://github.com/user-attachments/assets/9b58e090-dc39-456d-b495-f0ad2517c7bd" />)
-)
 
 ## Core Concept
 
