@@ -55,13 +55,14 @@
         updateBannerVisibility();
       }
 
-      var buildUrl = "Build";
+      var repoName = "/AI-Procedural-World-Generation";
+      var buildUrl = repoName + "/Build";
       var loaderUrl = buildUrl + "/AI-Procedural-World-Generation.loader.js";
       var config = {
         dataUrl: buildUrl + "/AI-Procedural-World-Generation.data",
         frameworkUrl: buildUrl + "/AI-Procedural-World-Generation.framework.js",
         codeUrl: buildUrl + "/AI-Procedural-World-Generation.wasm",
-        streamingAssetsUrl: "StreamingAssets",
+        streamingAssetsUrl: "",
         companyName: "World_Generation",
         productName: "PerlinPSODemo",
         productVersion: "0.1",
