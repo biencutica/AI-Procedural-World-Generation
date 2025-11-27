@@ -4,8 +4,8 @@
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <title>Unity WebGL Player | PerlinPSODemo</title>
-    <link rel="shortcut icon" href="TemplateData/favicon.ico">
-    <link rel="stylesheet" href="TemplateData/style.css">
+    <link rel="shortcut icon" href="/AI-Procedural-World-Generation/TemplateData/favicon.ico">
+    <link rel="stylesheet" href="/AI-Procedural-World-Generation/TemplateData/style.css">
   </head>
   <body>
     <div id="unity-container" class="unity-desktop">
@@ -55,13 +55,14 @@
         updateBannerVisibility();
       }
 
-      var buildUrl = "Build";
+      var repoName = "/AI-Procedural-World-Generation"; 
+      var buildUrl = repoName + "/Build";
       var loaderUrl = buildUrl + "/AI-Procedural-World-Generation.loader.js";
       var config = {
         dataUrl: buildUrl + "/AI-Procedural-World-Generation.data",
         frameworkUrl: buildUrl + "/AI-Procedural-World-Generation.framework.js",
         codeUrl: buildUrl + "/AI-Procedural-World-Generation.wasm",
-        streamingAssetsUrl: "StreamingAssets",
+        streamingAssetsUrl: "",
         companyName: "World_Generation",
         productName: "PerlinPSODemo",
         productVersion: "0.1",
